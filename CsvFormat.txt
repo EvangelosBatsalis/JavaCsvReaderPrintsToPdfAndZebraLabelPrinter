@@ -1,0 +1,1 @@
+ΑριθμόςΚαταστήματος,ΌνομαΚαταστήματος,Διεύθυνση,Όροφος,ΑριθμόςΤαμείου,ServerExists?,ClientExists,IPAddress,SubnetMask,Gateway,ComputerName,CashRegisterExists,ΦορολογικάΣτοιχεία,ΕκτύπωσηΥπογραφών,ΌνομαΧρήστη,ΔικαιώματαUserComputer
