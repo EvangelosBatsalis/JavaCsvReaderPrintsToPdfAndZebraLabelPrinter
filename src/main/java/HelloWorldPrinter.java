@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class HelloWorldPrinter implements Printable, ActionListener {
     Scanner sc = new Scanner(System.in);
-    ArrayList<String> kati;
-    int numberOutPut;
-    public HelloWorldPrinter(ArrayList<String> s, int numberOutPut) {
-        this.kati = s;
-        this.numberOutPut=numberOutPut;
+    ArrayList<String> arrayList;
+    int numberOutput;
+    public HelloWorldPrinter(ArrayList<String> arrayList, int numberOutput) {
+        this.arrayList = arrayList;
+        this.numberOutput=numberOutput;
     }
 
     public int print(Graphics g, PageFormat pf, int page) throws
@@ -35,9 +35,9 @@ public class HelloWorldPrinter implements Printable, ActionListener {
 //            pos+=20;
 //        }
 
-        numberOutPut = 150;
-        System.out.println(numberOutPut);
-        String[] test = kati.get(numberOutPut).split("\n");
+        numberOutput = 150;
+        System.out.println(numberOutput);
+        String[] test = kati.get(numberOutput).split("\n");
         System.out.println(test.length);
         String kati = test[0];//1
         String kati1 = test[1];//2
@@ -47,7 +47,7 @@ public class HelloWorldPrinter implements Printable, ActionListener {
         String kati5 = test[5];//6
 
 
-        g.drawString("A/A: "+numberOutPut,100,100);
+        g.drawString("A/A: "+numberOutput,100,100);
         g.drawString(kati,100,120);
         g.drawString(kati1,100,140);
         g.drawString(kati2,100,160);
